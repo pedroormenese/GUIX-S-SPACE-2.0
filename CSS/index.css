@@ -23,21 +23,21 @@ html, body {
 @media (max-width: 900px) {
     html, body {
         display: block;
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
 @media (max-width: 600px) {
     html, body {
         display: block;
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
 @media (max-width: 400px) {
     html, body {
         display: block;
-        font-size: 16px;
+        font-size: 13px;
     }
 }
 
