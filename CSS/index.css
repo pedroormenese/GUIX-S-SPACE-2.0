@@ -104,14 +104,13 @@ header::before { /*::before é como se fosse uma camada atrás do mesmo elemento
 
 header > .geralcontainer {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 
     height: 100%;
     width: 100%;
     flex-grow: 1;
 
-    margin: 0 8.5rem 0 8.5rem;
     z-index: 1;
 }
 
