@@ -5,10 +5,9 @@
     justify-content: center;
 
     width: 100%;
-    height: 33.25rem;
+    height: 21.30rem;
 
     overflow:hidden;
-    background-color: #4400668e;
 }
 
 
@@ -35,12 +34,12 @@
     text-align: center;
     position: relative;
     z-index: 0;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
 
     user-select: none;
 }
 
-.space {
+.space { /*============================================= Espaçamento de baixo só pra testar o hero */
     width: 100%;
-    height: 100rem;
+    height: 130rem;
 }
