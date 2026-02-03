@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Hammersmith+One&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root { /* ========================= Cores e configurações width*/
+    --light-cor-primaria: #c299ff;
+    --light-cor-secundaria: #ad33ff;
+
+    --dark-cor-primaria: #5c0099;
+    --dark-cor-secundaria: #b300b3;
+
+    --danger-color: #bf4080;
+    --sucess-color: #f2d9e5;
+
+    --desktop-width: 768px; /*max*/
+    --medium-width: 768px; /*min*/
+    --small-devices-width: 600px; /*max*/
+    --very-small-devices-width: 480px; /*max*/
+}
+
+
+html, body {
+    display: block;
+    font-size: 24px;
+    background-color: #220033;
+}
+
+@media (max-width: 768px) {
+    html, body {
+        display: block;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    html, body {
+        display: block;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    html, body {
+        display: block;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    html, body {
+        display: block;
+        font-size: 13px;
+    }
+}

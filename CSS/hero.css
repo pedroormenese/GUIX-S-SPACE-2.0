@@ -1,0 +1,46 @@
+.parallax-container {  /* ============================================ Parallax */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 33.25rem;
+
+    overflow:hidden;
+    background-color: #4400668e;
+}
+
+
+.parallax-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("../Assets/parallaximg.png");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: -5rem;
+    background-position-x: center;
+
+    filter:brightness(0.7) blur(0.1rem);
+
+    width: 100%;
+    height: 100%;
+}
+
+.parallax-container h1 {
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 7rem;
+
+    user-select: none;
+}
+
+.space {
+    width: 100%;
+    height: 100rem;
+}

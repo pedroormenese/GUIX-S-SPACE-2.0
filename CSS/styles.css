@@ -1,0 +1,26 @@
+/* =============================================================== Configurações Globais */
+
+h1 {
+    font-family: Hammersmith One;
+    font-size: 8.3rem;
+    color: white;
+
+    mix-blend-mode:overlay;
+}
+
+p, a {
+    font-family: Grandstander;
+    font-size: 1rem;
+    font-weight: 500;
+
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+a {
+    padding: 1rem;
+}
