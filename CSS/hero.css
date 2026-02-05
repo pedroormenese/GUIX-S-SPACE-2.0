@@ -1,6 +1,7 @@
 .parallax-container {  /* ============================================ Parallax */
-    position: absolute;
     display: flex;
+    position: relative;
+    
     align-items: center;
     justify-content: center;
 

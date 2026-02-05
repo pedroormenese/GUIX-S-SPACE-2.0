@@ -1,0 +1,20 @@
+.shading-container { /* Contêiner do efeito de sombreamento */
+    display: flex;
+    position: relative;
+
+    height: 10rem;
+    width: 100%;
+}
+.shading-container::before { /*Efeito gradiente*/
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: linear-gradient(
+        to bottom,
+        #000000b6 0%,
+        #0000004f 40%,
+        #04040411 80%,
+        transparent 100%
+    );
+}

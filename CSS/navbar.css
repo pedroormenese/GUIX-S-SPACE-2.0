@@ -16,8 +16,7 @@ header { /* ============================================ Navbar */
         to bottom,
         white 0%,
         white 20%,
-        white 55%,
-        white 70%,
+        white 60%,
         transparent 100%
     );
 
@@ -42,13 +41,17 @@ header a {
     user-select: none;
 }
 
+.container {
+    gap: 0.3rem;
+}
+
 .container > a {
      transition: 0.2s linear;
      border-radius: 0.3rem;
 }
 
 .container >a:hover {
-    background-color: #ff8533b9;
+    background-color: var(--light-cor-primaria);
     border-radius: 0.3rem;
     transform: 0.2s linear;
 }
