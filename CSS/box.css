@@ -1,0 +1,16 @@
+.box-container {
+    width: 18rem;
+    height: 13rem;
+
+    border-style: solid;
+    border-radius: 2rem;
+    border-width: 0px;
+
+    background-image: radial-gradient(
+        farthest-side at 50%,
+        var(--dark-cor-secundaria),
+        var(--dark-cor-terciaria) 
+    );
+}
+
+/*Ainda falta colocar o blur e ajustar o tamanho da caixa*/
