@@ -39,5 +39,5 @@ html, body {
 }
 
 html {
-    font-size: clamp(14px, 2.2vw, 26px); /* Vai fazer um cálculo entre a sua viewport total e a porcentagem que você passou dela. ali no caso a fonte vai ser 2.2% o valor da sua viewport. Caso o valor estrapole ou fique abaixo do mínimo, vai usar um dos dois valores dos lados pra substituir*/
+    font-size: clamp(14px, 1.2vw, 26px); /* Vai fazer um cálculo entre a sua viewport total e a porcentagem que você passou dela. ali no caso a fonte vai ser 2.2% o valor da sua viewport. Caso o valor estrapole ou fique abaixo do mínimo, vai usar um dos dois valores dos lados pra substituir*/
 }
