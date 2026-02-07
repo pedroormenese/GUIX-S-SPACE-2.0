@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position-y: -5rem;
+    background-position: -1rem;
     background-position-x: center;
 
     filter:brightness(0.7) blur(0.1rem);
