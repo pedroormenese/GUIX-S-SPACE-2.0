@@ -19,8 +19,8 @@
     --light-cor-secundaria: #ad33ff;
 
     --dark-cor-primaria: #5c0099;
-    --dark-cor-secundaria: #b300b3;
-    --dark-cor-terciaria: #660066;
+    --dark-cor-secundaria: rgb(153, 0, 153, 100%);
+    --dark-cor-terciaria: rgb(77, 0, 153, 100%);
 
     --danger-color: #bf4080;
     --sucess-color: #f2d9e5;
