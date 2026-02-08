@@ -7,6 +7,7 @@
 @import url(navbar.css);
 @import url(shading.css);
 @import url(styles.css);
+@import url(maincontent.css);
 
 * {
     margin: 0;
@@ -19,8 +20,8 @@
     --light-cor-secundaria: #ad33ff;
 
     --dark-cor-primaria: #5c0099;
-    --dark-cor-secundaria: rgb(153, 0, 153, 100%);
-    --dark-cor-terciaria: rgb(77, 0, 153, 100%);
+    --dark-cor-secundaria: rgba(104, 0, 201, 0.5);
+    --dark-cor-terciaria: rgba(40, 0, 77, 0.5);
 
     --danger-color: #bf4080;
     --sucess-color: #f2d9e5;
