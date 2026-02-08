@@ -7,6 +7,7 @@
 @import url(navbar.css);
 @import url(shading.css);
 @import url(styles.css);
+@import url(maincontent.css);
 
 * {
     margin: 0;
@@ -19,8 +20,8 @@
     --light-cor-secundaria: #ad33ff;
 
     --dark-cor-primaria: #5c0099;
-    --dark-cor-secundaria: #b300b3;
-    --dark-cor-terciaria: #660066;
+    --dark-cor-secundaria: rgba(104, 0, 201, 0.5);
+    --dark-cor-terciaria: rgba(40, 0, 77, 0.5);
 
     --danger-color: #bf4080;
     --sucess-color: #f2d9e5;
@@ -39,5 +40,5 @@ html, body {
 }
 
 html {
-    font-size: clamp(14px, 2.2vw, 26px); /* Vai fazer um cálculo entre a sua viewport total e a porcentagem que você passou dela. ali no caso a fonte vai ser 2.2% o valor da sua viewport. Caso o valor estrapole ou fique abaixo do mínimo, vai usar um dos dois valores dos lados pra substituir*/
+    font-size: clamp(14px, 1.2vw, 26px); /* Vai fazer um cálculo entre a sua viewport total e a porcentagem que você passou dela. ali no caso a fonte vai ser 2.2% o valor da sua viewport. Caso o valor estrapole ou fique abaixo do mínimo, vai usar um dos dois valores dos lados pra substituir*/
 }

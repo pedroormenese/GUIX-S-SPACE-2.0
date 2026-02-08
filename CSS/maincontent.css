@@ -1,0 +1,18 @@
+/*Desktop e Laptop*/
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+
+    width: 100%;
+    height: auto;
+
+    margin-top: 6rem;
+}
+
+.main-content-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

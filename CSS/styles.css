@@ -8,13 +8,23 @@ h1 {
     mix-blend-mode:overlay;
 }
 
+h2 {
+    font-family: Grandstander;
+    font-size: 1.3rem;
+    font-weight: 500;
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
 p, a {
     font-family: Grandstander;
     font-size: 1rem;
     font-weight: 500;
 
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .container {
